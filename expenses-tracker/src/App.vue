@@ -7,10 +7,7 @@
 
         <div class="logos">
           <a class="navbar-brand">
-            <img alt="logo" src="./assets/EXPENSELY.png">
-              <div class="logtext">
-                <!-- <h5>Expensely</h5> -->
-              </div>
+             <p> <img alt="logo" src="./assets/EXPENSELY.png"> EXPENSELY</p>
           </a>
         </div>
 
@@ -19,7 +16,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav here">
             <a class="nav-link active" aria-current="page"><router-link to="/">Home |</router-link></a>
             <a class="nav-link" ><router-link to="/about">About |</router-link></a>
             <a class="nav-link" ><router-link to="/">Expense Tracker |</router-link></a>
@@ -61,5 +58,8 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+.here {
+  margin-top: -20px;
 }
 </style>

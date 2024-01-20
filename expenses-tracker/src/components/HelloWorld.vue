@@ -26,23 +26,100 @@
       </div>
 
       <div class="row mt-5 bg-light">
-        <div class="col-md-4 midBox">
+        <div class="col-md-4 midBox mb-4">
           <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
           <h3>Multilevel security</h3>
           <h6>Protect your financial status with features like <br> multi-factor aunthetification and
           granular <br> employee permision </h6>
         </div>
-        <div class="col-md-4 midBox  ">
+        <div class="col-md-4 midBox mb-4">
           <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
           <h3>Trusted Experience</h3>
           <h6>Apply in minutes and recieved account<br> Approval within hours, This access all the <br> 
           cash management essentials in one digital <br>platform</h6>
         </div>
-        <div class="col-md-4 midBox">
+        <div class="col-md-4 midBox mb-4">
           <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
           <h3>Structured Outreach</h3>
           <h6>Expensely offers around clock support to<br> answer most pressing question and <br> propel your business forward </h6>
         </div>
+      </div>
+
+      <div class="row bg-dark client">
+        <div class="col">
+          <h3 class="mt-3">Why they love Expensely</h3>
+          <h5>This are words of those who have manage their finances and expenses</h5>              
+          <div class="row mt-5">
+              <div class="col-md-5 review ">
+                  <h6>Expensely really help me to manage my finance.<br>Now my finances are well managed
+                  without <br>excess expenses. I highly recomend this, <br> am highlt satisfied</h6>
+                  <p class="mt-5"> <img src="../assets/chess.png" alt="" class="img-fluid"> Doni Sarmoyo <br>Finance Manager at Youtube</p>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="col-md-5 review ">
+                  <h6>Expensely really help me to manage my finance.<br>Now my finances are well managed
+                  without <br> excess expenses. I highly recomend this,<br> am highlt satisfied</h6>
+                  <p class="mt-5"> <img src="../assets/model.png" alt="" class="img-fluid"> Doni Sarmoyo <br>Finance Manager at Youtube</p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="row blog mt-5">
+        <div class="col-md-4">
+          <h1 class="">Explore and spread <br> our blog</h1>
+            <div class="input-group">
+              <input type="text" placeholder="Enter your Email" class="form-control">
+                <button  type="button" class="btn btn-success">Subscribe</button>
+              </div>
+            </div>
+            <div class="col"></div>
+          <div class="col-md-4">
+            <h5>Follow our development and the blogs <br> we provide.lots of  interesting article about <br>finance and entertainment  technology
+              <br>has been  the industry's standard dummy <br>text over sincethe 1500's when an  unknown <br>printer took 
+            a galley of type and scrambled<br> it to make a type specimen book </h5>
+          </div>
+      </div>
+
+      <div class="row mt-5 foot">
+          <div class="col mt-3">
+            <div>
+            <p> <img src="../assets/EXPENSELY.png" alt="">EXPENSELY</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+              Vitae, dolores odit beatae adipisci corporis voluptas. <br>
+               Voluptatum sequi explicabo quibusdam dolor. <br></p>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <ul>
+              <li><h5>ABOUT</h5> </li>
+              <li>About us</li>
+              <li> Features</li>
+              <li>Blog</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li><h5>Company</h5> </li>
+              <li>How we work</li>
+              <li>Press Room</li>
+              <li>Jobs</li>
+              <li>Community</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li><h5>Legal</h5> </li>
+              <li>Terms of use</li>
+              <li>Privacy Policy</li>
+              <li>Security Policy</li>
+              <li>Cookies Settings</li>
+            </ul>
+          </div>
+          
       </div>
 
 
@@ -77,12 +154,41 @@ h6 {
   color: black;
 }
 .midBox{
-  box-shadow:rgba(5, 5, 5, 0.50) 5px 5px 8px;
+  box-shadow:rgba(5, 5, 5, 0.20) 3px 3px 8px;
   padding: 20px;
 }
 .midBox h6 {
   /* box-shadow:rgba(5, 5, 5, 0.50) 5px 5px 8px; */
   padding: 20px;
-
+}
+.review{
+  border-radius: 15px;
+  color: #fff;
+  padding: 20px;
+  background-color: #198754;
+}
+.client{
+  color: white;
+  padding: 20px;
+}
+.blog{
+    white-space: nowrap;
+    /* padding: 20px; */
+}
+ul li {
+  padding: 10px;
+  font-size: 1rem;
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.foot {
+  background-color: whitesmoke;
+}
+input {
+  padding: 3px;
+}
+button {
+  border-radius: 30px;
 }
 </style>
