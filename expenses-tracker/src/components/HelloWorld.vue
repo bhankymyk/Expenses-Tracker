@@ -1,33 +1,52 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="hello">
+      <!-- <h1>{{ msg }}</h1> -->
+      <h1>Manage Spending  <br>Money Effectively <br>and Efficiency</h1>
+      <h3>Best way to save your money</h3>
+      <h5>With our easy to use platform you can track your income and expenses, set budget and plan for your <br>
+        funancial future. Say goodbye to financial stress and yes to financial freedom </h5>
+        <button type="button" class="btn  btn-success mt-2">Click here to explore</button>
+      </div>
+    </div>
+    <div class="row bg-light mt-5">
+      <div class="col-md-3 midlogo"><h6>Supported by international finance manager</h6></div>
+      <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
+      <div class="col-md-3"><img src="../assets/VISA-logo.png"  class="img-fluid" alt="pay"></div>
+      <div class="col-md-3"><img src="../assets/images (1).png"  class="img-fluid" alt=""></div>
+    </div>
+
+      <div class="row mt-5 midText">
+        <div class="col">
+          <h2>Together with AI assistant who manage <br> your finances optimally</h2>
+          <h5>Expensely uses AI technology that can help you manage your finances </h5>
+        </div>
+      </div>
+
+      <div class="row mt-5 bg-light">
+        <div class="col-md-4 midBox">
+          <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
+          <h3>Multilevel security</h3>
+          <h6>Protect your financial status with features like <br> multi-factor aunthetification and
+          granular <br> employee permision </h6>
+        </div>
+        <div class="col-md-4 midBox  ">
+          <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
+          <h3>Trusted Experience</h3>
+          <h6>Apply in minutes and recieved account<br> Approval within hours, This access all the <br> 
+          cash management essentials in one digital <br>platform</h6>
+        </div>
+        <div class="col-md-4 midBox">
+          <div class="col-md-3"><img src="../assets/Paypal-logo.png" class="img-fluid"  alt="pay"></div>
+          <h3>Structured Outreach</h3>
+          <h6>Expensely offers around clock support to<br> answer most pressing question and <br> propel your business forward </h6>
+        </div>
+      </div>
+
+
+</div>
 </template>
 
 <script>
@@ -40,19 +59,30 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1 {
+  font-size: 70px;
+  line-height: 90px;
+  padding: 10px;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+h6 {
+  white-space: nowrap;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.midlogo{
+  margin-top: 80px;
 }
-a {
-  color: #42b983;
+.midText, h2 {
+  text-align: center;
+  color: black;
+}
+.midBox{
+  box-shadow:rgba(5, 5, 5, 0.50) 5px 5px 8px;
+  padding: 20px;
+}
+.midBox h6 {
+  /* box-shadow:rgba(5, 5, 5, 0.50) 5px 5px 8px; */
+  padding: 20px;
+
 }
 </style>
