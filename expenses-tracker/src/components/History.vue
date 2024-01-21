@@ -53,6 +53,7 @@
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
+  border: 3px solid whitesmoke;
   color: #333;
   display: flex;
   justify-content: space-between;
