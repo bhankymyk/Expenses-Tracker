@@ -16,6 +16,17 @@
 
 <script>
     export default {
+        props: {
+    income: {
+      type: Number,
+      required: true
+    },
+    expenses: {
+      type: Number,
+      required: true
+    },
+        
+    }
         
     }
 </script>

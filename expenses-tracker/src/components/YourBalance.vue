@@ -11,7 +11,12 @@
 
 <script>
     export default {
-        
+        props: {
+    total: {
+      type: Number,
+      required: true
+    },
+  },
     }
 </script>
 

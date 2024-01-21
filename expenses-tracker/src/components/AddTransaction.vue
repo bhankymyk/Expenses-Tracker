@@ -23,13 +23,38 @@
 </template>
 
 <script setup>
-    import { ref } from 'vue';
+import { ref } from 'vue';
+import { useToast } from 'vue-toastification';
+    
 
     // v-Model binding 
     const text = ref(' ')
     const amount = ref (' ')
 
+    const toast = useToast ();
     
+    const emit = defineEmits(['transactionSubmitted'])
+
+
+    const onSubmit = () => {
+    if (!text.value || !amount.value ) {
+     toast.error('Both fields are required');
+    return;
+    }
+    const transactionData = {
+                         text: text.value,
+                         amount: parseFloat(amount.value),
+                        };
+                        
+                        emit('transactionSubmitted', transactionData);
+                        
+                        text.value = '';
+                        amount.value = ''
+
+
+
+    }
+
 </script>
 
 <style scoped>
