@@ -54,7 +54,7 @@
                   <p class="mt-5"> <img src="../assets/chess.png" alt="" class="img-fluid"> Doni Sarmoyo <br>Finance Manager at Youtube</p>
               </div>
               <div class="col-md-2"></div>
-              <div class="col-md-5 review ">
+              <div class="col-md-5 mt-5 review ">
                   <h6>Expensely really help me to manage my finance.<br>Now my finances are well managed
                   without <br> excess expenses. I highly recomend this,<br> am highlt satisfied</h6>
                   <p class="mt-5"> <img src="../assets/model.png" alt="" class="img-fluid"> Doni Sarmoyo <br>Finance Manager at Youtube</p>
@@ -65,16 +65,16 @@
 
 
       <div class="row blog mt-5">
-        <div class="col-md-4">
-          <h1 class="">Explore and spread <br> our blog</h1>
+        <div class="col-md-4 p-3">
+          <h1 class="exp">Explore and spread <br> our blog</h1>
             <div class="input-group">
-              <input type="text" placeholder="Enter your Email" class="form-control">
+              <input type="text" placeholder="Enter your Email" class="form-control p-3">
                 <button  type="button" class="btn btn-success">Subscribe</button>
               </div>
             </div>
             <div class="col"></div>
-          <div class="col-md-4">
-            <h5>Follow our development and the blogs <br> we provide.lots of  interesting article about <br>finance and entertainment  technology
+          <div class="col-md-4 mt-3">
+            <h5 class="p-3">Follow our development and the blogs <br> we provide.lots of  interesting article about <br>finance and entertainment  technology
               <br>has been  the industry's standard dummy <br>text over sincethe 1500's when an  unknown <br>printer took 
             a galley of type and scrambled<br> it to make a type specimen book </h5>
           </div>
@@ -84,7 +84,7 @@
           <div class="col mt-3">
             <div>
             <p> <img src="../assets/EXPENSELY.png" alt="">EXPENSELY</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Vitae, dolores odit beatae adipisci corporis voluptas. <br>
                Voluptatum sequi explicabo quibusdam dolor. <br></p>
             </div>
@@ -134,8 +134,8 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 70px;
-  line-height: 90px;
+  /* font-size: 70px; */
+  /* line-height: 90px; */
   padding: 10px;
 }
 h6 {
@@ -185,4 +185,5 @@ input {
 button {
   border-radius: 30px;
 }
+
 </style>
