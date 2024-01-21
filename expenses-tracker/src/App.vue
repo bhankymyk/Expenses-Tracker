@@ -19,7 +19,7 @@
           <div class="navbar-nav here">
             <a class="nav-link active" aria-current="page"><router-link to="/">Home |</router-link></a>
             <a class="nav-link" ><router-link to="/about">About |</router-link></a>
-            <a class="nav-link" ><router-link to="/">Expense Tracker |</router-link></a>
+            <a class="nav-link" ><router-link to="/expensely">Expense Tracker |</router-link></a>
             <a class="nav-link" >Pricing</a>
             <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
           </div>

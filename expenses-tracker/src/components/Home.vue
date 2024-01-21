@@ -2,13 +2,11 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="hello">
-      <!-- <h1>{{ msg }}</h1> -->
       <h1>Manage Spending  <br>Money Effectively <br>and Efficiency</h1>
       <h3>Best way to save your money</h3>
       <h5>With our easy to use platform you can track your income and expenses, set budget and plan for your <br>
         funancial future. Say goodbye to financial stress and yes to financial freedom </h5>
-        <button type="button" class="btn  btn-success mt-2">Click here to explore</button>
+        <button type="button" class="btn  btn-success  btn-sm mt-2">Click here to explore</button>
       </div>
     </div>
     <div class="row bg-light mt-5">
@@ -121,9 +119,6 @@
           </div>
           
       </div>
-
-
-</div>
 </template>
 
 <script>
@@ -180,7 +175,6 @@ ul li {
   font-size: 1rem;
   list-style: none;
   cursor: pointer;
-  padding: 10px;
 }
 .foot {
   background-color: whitesmoke;
