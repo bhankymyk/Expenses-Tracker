@@ -86,7 +86,7 @@
             <p> <img src="../assets/EXPENSELY.png" alt="">EXPENSELY</p>
             <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
               Vitae, dolores odit beatae adipisci corporis voluptas. <br>
-               Voluptatum sequi explicabo quibusdam dolor. <br></p>
+               Voluptatum sequi explicabo quibusdam dolors. <br></p>
             </div>
           </div>
 
