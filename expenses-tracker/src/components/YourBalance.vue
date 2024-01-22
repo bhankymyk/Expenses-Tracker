@@ -2,8 +2,8 @@
     
         <div class="row">
             <div class="col bal">
-                <h4>Your Balance</h4>
-                <h1 id="balance">#{{ total }}</h1>
+                <h4>Your Balance is </h4>
+                <h1 class="Balance">#{{ total }}</h1>
             </div>
         </div>
 
@@ -23,6 +23,9 @@
 <style scoped>
 .bal{
     text-align: center;
+}
+.Balance {
+    color: #198754;
 }
 
 

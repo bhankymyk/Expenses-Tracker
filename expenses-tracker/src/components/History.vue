@@ -91,6 +91,6 @@
 }
 
 .list li:hover .deleteBtn {
-  opacity: 1;
+  opacity: 15;
 }
 </style>
