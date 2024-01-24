@@ -6,7 +6,11 @@
       <h3>Best way to save your money</h3>
       <h5>With our easy to use platform you can track your income and expenses, set budget and plan for your <br>
         funancial future. Say goodbye to financial stress and yes to financial freedom </h5>
-        <button type="button" class="btn  btn-success  btn-sm mt-2">Click here to explore</button>
+        <div>
+          <router-link to="/expensely">
+            <button type="button" class="btn  btn-success  btn-sm mt-2">Click here to explore</button>
+          </router-link>
+        </div>
       </div>
     </div>
     <div class="row bg-light mt-5">
