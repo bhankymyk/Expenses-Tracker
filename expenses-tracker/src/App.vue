@@ -3,7 +3,7 @@
   <div class="container-fluid">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid" >
+      <div class="container-fluid text-center" >
 
         <div class="logos">
           <a class="navbar-brand">
